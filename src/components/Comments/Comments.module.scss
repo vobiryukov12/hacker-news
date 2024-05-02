@@ -1,0 +1,11 @@
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__headline {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+}

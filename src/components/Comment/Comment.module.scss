@@ -1,0 +1,25 @@
+.comment {
+  padding-bottom: 0;
+  padding-left: 0;
+
+  &__block {
+    padding-bottom: 0;
+    border-left: 1px solid #d7d8d9;
+  }
+
+  &__repliesDesktop {
+    @media (width <= 576px) {
+      display: none;
+    }
+  }
+
+  &__repliesMobile {
+    @media (width > 576px) {
+      display: none;
+    }
+  }
+}
+
+.comment__repliesMobile .comment__block {
+  border: none;
+}
